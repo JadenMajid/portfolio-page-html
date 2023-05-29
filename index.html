@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Portfolio Page</title>
+    <meta property="og:title" content="Portfolio Page" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Arial;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.55;
+        color: var(--dl-color-gray-black);
+        background-color: var(--dl-color-gray-white);
+
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div>
+      <link href="./home.css" rel="stylesheet" />
+
+      <div class="home-container">
+        <div data-role="Header" class="home-navbar-container">
+          <div class="home-navbar">
+            <img
+              alt="image"
+              src="public/j-removebg-preview-200h.png"
+              class="home-image"
+            />
+            <div class="home-links-container">
+              <a href="#about-me" class="home-link Navbar-Link">About</a>
+              <a href="#projects" class="home-link1 Navbar-Link">Projects</a>
+              <a href="#work" class="home-link2 Navbar-Link">Work Experience</a>
+              <a href="#questions" class="home-link3 Navbar-Link">Contact</a>
+            </div>
+            <div data-role="BurgerMenu" class="home-burger-menu">
+              <svg viewBox="0 0 1024 1024" class="home-icon">
+                <path
+                  d="M128 256h768v86h-768v-86zM128 554v-84h768v84h-768zM128 768v-86h768v86h-768z"
+                ></path>
+              </svg>
+            </div>
+            <div data-role="MobileMenu" class="home-mobile-menu">
+              <div class="home-container1">
+                <span class="Card-Heading home-heading">Logo</span>
+                <div data-role="CloseMobileMenu" class="home-close-menu">
+                  <svg viewBox="0 0 1024 1024" class="home-icon2">
+                    <path
+                      d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+              <div class="home-links-container1">
+                <span class="home-link4 Navbar-Link">About</span>
+                <span class="home-link5 Navbar-Link">Experience</span>
+                <span class="home-link6 Navbar-Link">Portofolio</span>
+                <span class="Navbar-Link">Contact</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="home-section-separator"></div>
+        <div class="home-container2">
+          <div class="home-hero">
+            <div class="home-hero-text-container">
+              <h1 id="about-me" class="home-heading1 Section-Heading">
+                Hi, I'm Jaden Majid
+              </h1>
+              <span class="home-text Section-Text">
+                I'm a UBC computer science major. I used to be a physics major,
+                until I decided to transfer into computer science out of a love
+                of creating things and programming.
+              </span>
+              <div class="home-cta-btn-container">
+                <button class="home-cta-btn Anchor button">
+                  <span class="home-text01">
+                    <span class="Anchor">RESUME</span>
+                    <br />
+                  </span>
+                </button>
+              </div>
+            </div>
+            <img
+              alt="image"
+              src="https://play.teleporthq.io/static/svg/default-img.svg"
+              class="home-image1"
+            />
+          </div>
+        </div>
+        <div class="home-features">
+          <div class="home-heading-container">
+            <h2 id="projects" class="home-text04 Section-Heading">Projects</h2>
+            <span class="home-text05 Section-Text">
+              Here's some projects I've done
+            </span>
+          </div>
+          <div class="home-cards-container">
+            <div class="home-card">
+              <div class="home-icon-container">
+                <img
+                  alt="image"
+                  src="https://play.teleporthq.io/static/svg/default-img.svg"
+                  loading="eager"
+                  class="home-image2"
+                />
+              </div>
+              <div class="home-content-container">
+                <span class="home-heading2 Card-Heading">
+                  PHYS 210 Projects
+                </span>
+                <span class="home-text06 Card-Text">
+                  A collection of projects made for PHYS 210 at UBC. The
+                  projects are a set of 5 physics simulations written in python
+                  with an emphasis on numpy array broadcasting for efficiency,
+                  and animation generation. I would later go on to help
+                  restructure the course with Professor Joss Ives.
+                </span>
+              </div>
+            </div>
+            <div class="home-card1">
+              <div class="home-icon-container1">
+                <img
+                  alt="image"
+                  src="https://play.teleporthq.io/static/svg/default-img.svg"
+                  class="home-image3"
+                />
+              </div>
+              <div class="home-content-container1">
+                <span class="home-heading3 Card-Heading">IB CS EE</span>
+                <span class="home-text07">
+                  <span class="Card-Text"></span>
+                  <span class="Card-Text">
+                    As part of the IB diploma programme, I created an extended
+                    essay(like a highschool thesis) about quantum computing and
+                    cryptography.
+                  </span>
+                  <br class="Card-Text" />
+                  <span class="Card-Text">
+                    Research scope centered mainly on cryptographic methods,
+                    including topics such as hashing, trapdoor algorithms, and
+                    asymmetric encryption(RSA),
+                  </span>
+                  <br class="Card-Text" />
+                  <span class="Card-Text">
+                    Analysis centered on the comparison of prime factorization
+                    for semiprimes using Shor's Algorithm.&lt;br&gt;
+                  </span>
+                  <br class="Card-Text" />
+                  <span class="Card-Text">Grade Received: A</span>
+                </span>
+              </div>
+            </div>
+            <div class="home-card2">
+              <div class="home-icon-container2">
+                <img
+                  alt="image"
+                  src="https://play.teleporthq.io/static/svg/default-img.svg"
+                  class="home-image4"
+                />
+              </div>
+              <div class="home-content-container2">
+                <span class="home-heading4 Card-Heading">
+                  Newtonian Gravity Sim
+                </span>
+                <span class="home-text16">
+                  <span class="Card-Text"></span>
+                  <span class="Card-Text">
+                    A Newtonian Gravity simulator that uses Newton's Universal
+                    Law of Gravitation to simulate n body gravitation.
+                  </span>
+                  <br class="Card-Text" />
+                  <span class="Card-Text">
+                    The project was initially written using a functional
+                    programming style, but was later rewritten in OOP.
+                  </span>
+                  <br class="Card-Text" />
+                  <span class="Card-Text">
+                    Multiple presets were calculated to include dual sun orbits,
+                    three body(sun, planet, moon) orbits
+                  </span>
+                  <br class="Card-Text" />
+                  <span class="Card-Text">
+                    and a momentum conservation demonstrator.
+                  </span>
+                </span>
+              </div>
+            </div>
+          </div>
+          <button class="home-button Anchor button">CHECK MY WORK</button>
+        </div>
+        <div class="home-about">
+          <div class="home-max-content-width-container">
+            <div class="home-heading-container1">
+              <h1 id="work" class="Section-Heading home-text25">
+                Work Experience
+              </h1>
+            </div>
+            <div class="home-content-container3">
+              <div class="home-cards-container1">
+                <div class="home-card3">
+                  <div class="home-icon-container3">
+                    <img
+                      alt="image"
+                      src="https://play.teleporthq.io/static/svg/default-img.svg"
+                      loading="eager"
+                      class="home-image5"
+                    />
+                  </div>
+                  <div class="home-content-container4">
+                    <span class="home-heading5 Card-Heading">
+                      Student IT/AV Support Staff
+                    </span>
+                    <span class="home-text26">
+                      <span class="home-text27">UBC Sauder</span>
+                      <br class="Card-Text" />
+                      <span class="Card-Text">
+                        Delivered comprehensive audio-visual (AV) support to
+                        instructors in diverse environments, including
+                        classrooms, meeCng rooms, and computer labs, by seQng up
+                        and retrieving cuQng-edge equipment, troubleshooCng
+                        technical challenges, and ensuring seamless operaCon.
+                      </span>
+                    </span>
+                  </div>
+                </div>
+                <div class="home-card4">
+                  <div class="home-icon-container4">
+                    <img
+                      alt="image"
+                      src="https://play.teleporthq.io/static/svg/default-img.svg"
+                      class="home-image6"
+                    />
+                  </div>
+                  <div class="home-content-container5">
+                    <span class="home-heading6 Card-Heading">
+                      Head Camp Counselor
+                    </span>
+                    <span class="home-text30">
+                      Organized summer counselors to work together effectively
+                      and coordinated curriculum, in addition to all
+                      responsibilities of Summer Camp Counselor
+                    </span>
+                  </div>
+                </div>
+                <div class="home-card5">
+                  <div class="home-icon-container5">
+                    <img
+                      alt="image"
+                      src="https://play.teleporthq.io/static/svg/default-img.svg"
+                      class="home-image7"
+                    />
+                  </div>
+                  <div class="home-content-container6">
+                    <span class="home-heading7 Card-Heading">
+                      Summer Camp Counselor
+                    </span>
+                    <span class="home-text31 Card-Text">
+                      <span>Code Ninjas Leaside</span>
+                      <br />
+                      <span>
+                        Taught a variety of programming-based courses to
+                        children aged 7-14 with applicaCons to game design.
+                        Handled customer requests and adapted curriculum to meet
+                        individual needs.
+                      </span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="home-section-separator1"></div>
+        <div class="home-section-separator2"></div>
+        <div class="home-section-separator3"></div>
+        <div class="home-faqs">
+          <h2 id="questions" class="home-text35 Section-Heading">
+            Here's Some Answers to Questions&nbsp;
+          </h2>
+          <div class="home-content-container7">
+            <div class="home-faq">
+              <div class="home-question-container">
+                <span class="home-question">
+                  Here you would write a frequently asked question?
+                </span>
+              </div>
+              <div class="home-answer-container">
+                <span class="home-answer Card-Text">
+                  Here you would give the answer. Lorem ipsum dolor sit amet,
+                  consectetur adipiscing elit. Integer nec odio. Praesent
+                  libero. Sed cursus ante dapibus diam.c Sed nisi. Nulla quis
+                  sem at nibh elementum imperdiet. Here you would give the
+                  answer. Lorem ipsum dolor sit amet, consectetur adipiscing
+                  elit. Integer nec odio. Praesent libero. Sed cursus ante
+                  dapibus diam.c Sed nisi. Nulla quis sem at nibh elementum
+                  imperdiet.
+                </span>
+                <span class="Card-Text">
+                  Here you would give the answer. Lorem ipsum dolor sit amet,
+                  consectetur adipiscing elit. Integer nec odio. Praesent
+                  libero. Sed cursus ante dapibus diam.c Sed nisi. Nulla quis
+                  sem at nibh elementum imperdiet.
+                </span>
+              </div>
+            </div>
+            <div class="home-faq1">
+              <div class="home-question-container1">
+                <span class="home-question1">
+                  Here you would write a frequently asked question?
+                </span>
+              </div>
+              <div class="home-answer-container1">
+                <span class="home-answer2 Card-Text">
+                  Here you would give the answer. Lorem ipsum dolor sit amet,
+                  consectetur adipiscing elit. Integer nec odio. Praesent
+                  libero. Sed cursus ante dapibus diam.c Sed nisi. Nulla quis
+                  sem at nibh elementum imperdiet.
+                </span>
+                <span class="Card-Text">
+                  Here you would give the answer. Lorem ipsum dolor sit amet,
+                  consectetur adipiscing elit. Integer nec odio. Praesent
+                  libero.
+                </span>
+              </div>
+            </div>
+            <div class="home-faq2">
+              <div class="home-question-container2">
+                <span class="home-question2">
+                  Here you would write a frequently asked question?
+                </span>
+              </div>
+              <div class="home-answer-container2">
+                <span class="home-answer4 Card-Text">
+                  Here you would give the answer. Lorem ipsum dolor sit amet,
+                  consectetur adipiscing elit. Integer nec odio. Praesent
+                  libero. Sed cursus ante dapibus diam.c Sed nisi. Nulla quis
+                  sem at nibh elementum imperdiet.
+                </span>
+                <span class="Card-Text">
+                  Here you would give the answer. Lorem ipsum dolor sit amet,
+                  consectetur adipiscing elit. Integer nec odio. Praesent
+                  libero. Sed cursus ante dapibus diam.c Sed nisi. Nulla quis
+                  sem at nibh elementum imperdiet.
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="home-section-separator4"></div>
+        <div class="home-subscribe"></div>
+        <div class="home-section-separator5"></div>
+        <div class="home-footer-container">
+          <div class="home-footer">
+            <div class="home-social-links"></div>
+            <div class="home-copyright-container">
+              <svg viewBox="0 0 1024 1024" class="home-icon4">
+                <path
+                  d="M512 854q140 0 241-101t101-241-101-241-241-101-241 101-101 241 101 241 241 101zM512 86q176 0 301 125t125 301-125 301-301 125-301-125-125-301 125-301 301-125zM506 390q-80 0-80 116v12q0 116 80 116 30 0 50-17t20-43h76q0 50-44 88-42 36-102 36-80 0-122-48t-42-132v-12q0-82 40-128 48-54 124-54 66 0 104 38 42 42 42 98h-76q0-14-6-26-10-20-14-24-20-20-50-20z"
+                ></path>
+              </svg>
+              <span class="Anchor">Copyright, 2021</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://unpkg.com/@teleporthq/teleport-custom-scripts"></script>
+  </body>
+</html>
